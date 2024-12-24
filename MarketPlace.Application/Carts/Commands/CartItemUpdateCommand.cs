@@ -3,7 +3,7 @@ using MarketPlace.Domain.Common.Commands;
 
 namespace MarketPlace.Application.Carts.Commands;
 
-public record CartItemUpdateCommand : ICommand<CartDto>
+public record CartItemUpdateCommand : ICommand<CartItemDto>
 {
-    public CartDto CartItemDto { get; set; }
+    public CartItemDto CartItemDto { get; set; }
 }
