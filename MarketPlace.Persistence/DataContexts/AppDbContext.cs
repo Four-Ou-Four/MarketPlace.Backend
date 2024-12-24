@@ -27,4 +27,8 @@ public class AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : DbC
     //Order entities
     public DbSet<OrderItem> Orders => Set<OrderItem>();
     public DbSet<OrderItem> OrderItems => Set<OrderItem>();
+
+    //Review entities
+    public DbSet<Comment> Comments => Set<Comment>();
+    public DbSet<Rating> Ratings => Set<Rating>();
 }
