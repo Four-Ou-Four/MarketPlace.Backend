@@ -1,10 +1,10 @@
-﻿using MarketPlace.Application.Answers.Models;
+﻿using MarketPlace.Application.Products.Models;
 using MarketPlace.Domain.Common.Commands;
 using MarketPlace.Domain.Common.Queries;
 using MarketPlace.Domain.Entities;
 using System.Linq.Expressions;
 
-namespace MarketPlace.Application.Answers.Services;
+namespace MarketPlace.Application.Products.Services;
 
 public interface IProductService
 {
