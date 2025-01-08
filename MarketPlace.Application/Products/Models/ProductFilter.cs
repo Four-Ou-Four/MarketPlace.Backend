@@ -1,6 +1,6 @@
 ﻿using MarketPlace.Domain.Common.Queries;
 
-namespace MarketPlace.Application.Answers.Models;
+namespace MarketPlace.Application.Products.Models;
 
 public class ProductFilter : FilterPagination
 {
