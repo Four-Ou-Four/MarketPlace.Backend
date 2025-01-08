@@ -1,6 +1,6 @@
 ﻿using MarketPlace.Domain.Common.Commands;
 
-namespace MarketPlace.Application.Answers.Commands;
+namespace MarketPlace.Application.Products.Commands;
 
 public class ProductDeleteByIdCommand : ICommand<bool>
 {
