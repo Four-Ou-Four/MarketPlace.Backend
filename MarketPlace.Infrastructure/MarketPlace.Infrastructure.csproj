@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="DeepCloner" Version="0.10.4" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="LazyCache" Version="2.4.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarketPlace.Application\MarketPlace.Application.csproj" />
+    <ProjectReference Include="..\MarketPlace.Persistence\MarketPlace.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
