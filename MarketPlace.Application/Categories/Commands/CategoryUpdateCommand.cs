@@ -5,5 +5,5 @@ namespace MarketPlace.Application.Categories.Commands;
 
 public record CategoryUpdateCommand : ICommand<CategoryDto>
 {
-    public CategoryDto CategoryrDto { get; set; }
+    public CategoryDto CategoryDto { get; set; }
 }
