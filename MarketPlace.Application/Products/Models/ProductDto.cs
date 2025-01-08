@@ -1,4 +1,4 @@
-﻿namespace MarketPlace.Application.Answers.Models;
+﻿namespace MarketPlace.Application.Products.Models;
 
 public class ProductDto
 {
